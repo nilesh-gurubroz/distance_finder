@@ -1,0 +1,20 @@
+plugin.tx_distancefinder_pi1 {
+    view {
+        # cat=plugin.tx_distancefinder_pi1/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:distance_finder/Resources/Private/Templates/
+        # cat=plugin.tx_distancefinder_pi1/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:distance_finder/Resources/Private/Partials/
+        # cat=plugin.tx_distancefinder_pi1/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:distance_finder/Resources/Private/Layouts/
+    }
+    settings{
+        # cat=plugin.tx_distancefinder_pi1//a; type=text+; label = LLL:EXT:distance_finder/Resources/Private/Language/locallang_db.xlf:apiKey
+        apiKey =
+
+        # cat=plugin.tx_distancefinder_pi1//b; type=text+; label = LLL:EXT:distance_finder/Resources/Private/Language/locallang_db.xlf:language
+        language = en
+
+        # cat=plugin.tx_distancefinder_pi1//c; type=boolean; label = LLL:EXT:distance_finder/Resources/Private/Language/locallang_db.xlf:jquery
+        jquery =
+    }
+}

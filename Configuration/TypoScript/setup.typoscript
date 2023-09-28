@@ -1,0 +1,29 @@
+plugin.tx_distancefinder_pi1 {
+    view {
+        templateRootPaths.0 = EXT:distance_finder/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_distancefinder_pi1.view.templateRootPath}
+        partialRootPaths.0 = EXT:distance_finder/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_distancefinder_pi1.view.partialRootPath}
+        layoutRootPaths.0 = EXT:distance_finder/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_distancefinder_pi1.view.layoutRootPath}
+    }
+    settings {
+        apiKey = {$plugin.tx_distancefinder_pi1.settings.apiKey}
+        language = {$plugin.tx_distancefinder_pi1.settings.language}
+        jquery = {$plugin.tx_distancefinder_pi1.settings.jquery}
+    }
+}
+page {
+    includeCSS {
+        bootstapCss = EXT:distance_finder/Resources/Public/Css/bootstrap.min.css
+        mapstyle = EXT:distance_finder/Resources/Public/Css/style.css
+    }
+    includeJSLibs {
+        nsfjquery = EXT:distance_finder/Resources/Public/JavaScript/jquery.min.js
+        nsfjquery.if.isTrue = {$plugin.tx_distancefinder_pi1.settings.jquery}
+    }
+    includeJSFooter {
+        apiKey = https://maps.google.com/maps/api/js?key={$plugin.tx_distancefinder_pi1.settings.apiKey}&language={$plugin.tx_distancefinder_pi1.settings.language}&libraries=places
+        mapjs = EXT:distance_finder/Resources/Public/JavaScript/map.js
+    }
+}

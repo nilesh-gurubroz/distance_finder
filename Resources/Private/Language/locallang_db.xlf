@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:distance_finder/Resources/Private/Language/locallang_db.xlf" date="2023-09-26T16:36:25Z" product-name="distance_finder">
+		<header/>
+		<body>
+			<trans-unit id="tx_distancefinder_domain_model_addresses" resname="tx_distancefinder_domain_model_addresses">
+				<source>Addresses</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.description" resname="tx_distancefinder_domain_model_addresses.description">
+				<source>Addresses</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.company" resname="tx_distancefinder_domain_model_addresses.company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.company.description" resname="tx_distancefinder_domain_model_addresses.company.description">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.street_number" resname="tx_distancefinder_domain_model_addresses.street_number">
+				<source>Street Number</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.street_number.description" resname="tx_distancefinder_domain_model_addresses.street_number.description">
+				<source>Street Number</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.street" resname="tx_distancefinder_domain_model_addresses.street">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.street.description" resname="tx_distancefinder_domain_model_addresses.street.description">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.zipcode" resname="tx_distancefinder_domain_model_addresses.zipcode">
+				<source>Zipcode</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.zipcode.description" resname="tx_distancefinder_domain_model_addresses.zipcode.description">
+				<source>Zipcode</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.city" resname="tx_distancefinder_domain_model_addresses.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_distancefinder_domain_model_addresses.city.description" resname="tx_distancefinder_domain_model_addresses.city.description">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_distance_finder_pi1.name" resname="tx_distance_finder_pi1.name">
+				<source>Address Distance Finder</source>
+			</trans-unit>
+			<trans-unit id="tx_distance_finder_pi1.description" resname="tx_distance_finder_pi1.description">
+				<source>Plugin for the find the distance between source to destination</source>
+			</trans-unit>
+			<trans-unit id="apiKey">
+				<source>API Key : https://developers.google.com/maps/documentation/javascript/get-api-key</source>
+			</trans-unit>
+			<trans-unit id="language">
+				<source>Language Code : https://developers.google.com/maps/faq#languagesupport</source>
+			</trans-unit>
+			<trans-unit id="jquery">
+				<source>Include Jquery</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

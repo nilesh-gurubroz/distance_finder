@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:distance_finder/Resources/Private/Language/locallang_csh_tx_distancefinder_domain_model_addresses.xlf" date="2023-09-26T16:36:25Z" product-name="distance_finder">
+		<header/>
+		<body>
+			<trans-unit id="company.description" resname="company.description">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="street_number.description" resname="street_number.description">
+				<source>streetNumber</source>
+			</trans-unit>
+			<trans-unit id="street.description" resname="street.description">
+				<source>street</source>
+			</trans-unit>
+			<trans-unit id="zipcode.description" resname="zipcode.description">
+				<source>zipcode</source>
+			</trans-unit>
+			<trans-unit id="city.description" resname="city.description">
+				<source>city</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
